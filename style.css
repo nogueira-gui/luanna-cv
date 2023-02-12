@@ -1,0 +1,33 @@
+/* Importando o framework Bootstrap */
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+
+/* Adicionando personalizações ao estilo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+  }
+}
