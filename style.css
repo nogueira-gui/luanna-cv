@@ -26,8 +26,24 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     padding: 15px;
   }
-
   h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
+  }
+}
+
+#contato-desktop {
+  display: block;
+}
+
+#contato-mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #contato-desktop {
+    display: none;
+  }
+  #contato-mobile {
+    display: block;
   }
 }
